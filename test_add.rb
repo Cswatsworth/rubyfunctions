@@ -8,4 +8,8 @@ class TestMMFunctions < Minitest::Test
 	def test_functions_one_plus_one_equals_two
 		assert_equal(2, add(1,1))
 	end
+
+	def test_add_2_plus_3_returns_fice
+		assert_equal(5, add(2,3))
+	end
 end
