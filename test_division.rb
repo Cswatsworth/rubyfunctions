@@ -15,4 +15,11 @@ class TestMMFunctions < Minitest::Test
 		assert_equal(5, div(15,3))
 	end
 
+	def test_ten_divided_by_zero
+		assert_equal('You cannot divide by zero.', div(10,0))
+	end
+	
+	def test_zero_divided_by_five
+		assert_equal(0,div(0,5))
+	end
 end
