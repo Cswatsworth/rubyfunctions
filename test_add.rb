@@ -18,4 +18,8 @@ class TestMMFunctions < Minitest::Test
 		assert_equal(21, add(20,1))
 	end
 
+	def test_add_10_plus_negative_10_returns_zero
+		assert_equal(0, add(10,-10))
+	end
+	
 end
